@@ -9,17 +9,17 @@ for(int i = 0; i < 10; ++i){
             if(!j)
                 printf("*");
             else
-                printf("%4i", j);    
+                printf("%3i", j);    
         else if(!j)
                 printf("%i", i);
             else if(j < i)
-                    printf("    ");
+                    printf("   ");
                 else
-                    printf("%4i", i*j);
+                    printf("%3i", i*j);
     }
     printf("\n");
 }
 
-char a = getchar();
+//char a = getchar();
 return 0;
 }
