@@ -1,5 +1,5 @@
 #include <stdio.h>
-//#include <math.h>
+#include <math.h>
 
 
 int main(){
@@ -26,7 +26,7 @@ int main(){
                     precision--;
             }
     }
-    printf("La raiz cuarta de %f (%f) es %f\n", n, raiz*raiz*raiz*raiz, raiz);
+    printf("La raiz cuarta calculada de %f (%f) es %f y la exacta %.10lf\n", n, raiz*raiz*raiz*raiz, raiz, sqrt(sqrt(n)));
 
     return 0;
     }
